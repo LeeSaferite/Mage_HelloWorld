@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Hello_World>
+            <version>1.0.0</version>
+        </Hello_World>
+    </modules>
+    <admin>
+        <routers>
+            <Hello_World>
+                <use>admin</use>
+                <args>
+                    <module>Hello_World</module>
+                    <frontName>[admin]/hello/world</frontName>
+                </args>
+            </Hello_World>
+        </routers>
+    </admin>
+</config>
